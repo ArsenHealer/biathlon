@@ -38,7 +38,6 @@ import YandexMetrika from './components/YandexMetrika.vue';
 
 <script>
 export default {
-  components: {},
   data: () => ({
     drawer: false,
     group: null,
