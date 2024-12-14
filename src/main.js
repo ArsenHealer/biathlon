@@ -7,6 +7,7 @@
 // Plugins
 import { registerPlugins } from '@/plugins'
 import { initYandexMetrika } from 'yandex-metrika-vue3'
+import router from './router'
 
 // Components
 import App from './App.vue'
@@ -20,6 +21,7 @@ registerPlugins(app)
 
 app.use(initYandexMetrika, {
   id: 99215475,
+  router: router,
   env: import.meta.env.NODE_ENV,
 });
 
