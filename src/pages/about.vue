@@ -65,7 +65,7 @@
           населенного пункта Алабино. На территории имеется свой пресс-центр, огневые рубежи и танковые директрисы.
           Чтобы попасть парк, необходимо связаться с администрацией для получения разрешения.
         </p>
-        <button @click="$yandexMetrika.hit('https://tank-biathlon.tw1.ru/about')"></button>
+        <button @click="$yandexMetrika.hit('https://tank-biathlon.tw1.ru/about')">Посетить</button>
       </v-col>
     </v-row>
   </v-container>
