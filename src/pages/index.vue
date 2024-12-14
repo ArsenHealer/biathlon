@@ -104,23 +104,21 @@
     </v-row>
     <v-row>
       <v-col>
-        <v-sheet class="px-4" rounded>
-          <v-timeline align="start">
-            <v-timeline-item v-for="(year, i) in years" :key="i" :dot-color="year.color" size="small">
-              <template v-slot:opposite>
-                <div :class="`pt-1 headline font-weight-bold text-${year.color}`" v-text="year.year"></div>
-              </template>
+        <v-timeline align="start">
+          <v-timeline-item v-for="(year, i) in years" :key="i" :dot-color="year.color" size="small">
+            <template v-slot:opposite>
+              <div :class="`pt-1 headline font-weight-bold text-${year.color}`" v-text="year.year"></div>
+            </template>
+            <div>
+              <h2 :class="`mt-n1 headline mb-4 text-${year.color}`">
+                {{ year.title }}
+              </h2>
               <div>
-                <h2 :class="`mt-n1 headline mb-4 text-${year.color}`">
-                  {{ year.title }}
-                </h2>
-                <div>
-                  {{ year.text }}
-                </div>
+                {{ year.text }}
               </div>
-            </v-timeline-item>
-          </v-timeline>
-        </v-sheet>
+            </div>
+          </v-timeline-item>
+        </v-timeline>
       </v-col>
     </v-row>
     <v-row>
@@ -174,7 +172,10 @@
     </v-row>
     <v-row>
       <v-col>
-        <div class="text-subtitle-1">Следующие соревнования состоятся 07.11.2024 в городе Новосибирске по адресу: ул. Ключ-Камышенское Плато, 6/2 (ФГК ВОУ ВО «Новосибирский военный ордена Жукова институт имени генерала армии И.К. Яковлева войск национальной гвардии Российской Федерации»)</div>
+        <div class="text-subtitle-1">Следующие соревнования состоятся 07.11.2024 в городе Новосибирске по адресу: ул.
+          Ключ-Камышенское Плато, 6/2 (ФГК ВОУ ВО «Новосибирский военный ордена Жукова институт имени генерала армии
+          И.К.
+          Яковлева войск национальной гвардии Российской Федерации»)</div>
       </v-col>
     </v-row>
   </v-container>
