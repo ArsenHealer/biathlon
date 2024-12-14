@@ -24,31 +24,15 @@
       </v-navigation-drawer>
       <router-view />
       <AppFooter />
+      <YandexMetrika />
     </v-main>
-    <!-- Yandex.Metrika counter -->
-    <script type="text/javascript">
-   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-   m[i].l=1*new Date();
-   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
-   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-
-   ym(99214913, "init", {
-        clickmap:true,
-        trackLinks:true,
-        accurateTrackBounce:true
-   });
-</script>
-    <noscript>
-      <div><img src="https://mc.yandex.ru/watch/99214913" style="position:absolute; left:-9999px;" alt="" /></div>
-    </noscript>
-    <!-- /Yandex.Metrika counter -->
   </v-app>
 </template>
 
 <script setup>
 
 import AppFooter from './components/AppFooter.vue';
+import YandexMetrika from './components/YandexMetrika.vue';
 
 </script>
 
