@@ -7,13 +7,13 @@
     </v-row>
     <v-row>
       <v-col cols="12" sm="4">
-        <v-card append-icon="mdi-open-in-new" title="Telegram" class="pa-2" height="215" hover>
-          <v-card-text class="text-h6">@htrgk</v-card-text>
+        <v-card append-icon="mdi-open-in-new" title="Telegram" class="pa-2" height="215" hover link href="https://t.me/+P8-HpGv9IdU3NDM6">
+          <v-card-text class="text-h6">Танковый биатлон</v-card-text>
         </v-card>
       </v-col>
       <v-col cols="12" sm="4">
-        <v-card append-icon="mdi-open-in-new" title="Вконтакте" class="pa-2" height="215" hover>
-          <v-card-text class="text-h6">@jdfnj</v-card-text>
+        <v-card append-icon="mdi-open-in-new" title="Вконтакте" class="pa-2" height="215" hover link href="https://vk.com/club228675930">
+          <v-card-text class="text-h6">Танковый биатлон</v-card-text>
         </v-card>
       </v-col>
     </v-row>
