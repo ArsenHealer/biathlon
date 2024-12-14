@@ -6,7 +6,7 @@
 
 // Plugins
 import { registerPlugins } from '@/plugins'
-import VueYandexMetrika from '@vue-yandex-metrika'
+import VueYandexMetrika from 'vue-yandex-metrika'
 
 // Components
 import App from './App.vue'
