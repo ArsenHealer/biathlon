@@ -24,7 +24,6 @@
       </v-navigation-drawer>
       <router-view />
       <AppFooter />
-      <YandexMetrika />
     </v-main>
   </v-app>
 </template>
@@ -32,7 +31,6 @@
 <script setup>
 
 import AppFooter from './components/AppFooter.vue';
-import YandexMetrika from './components/YandexMetrika.vue';
 
 </script>
 
