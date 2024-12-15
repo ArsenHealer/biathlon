@@ -4,6 +4,7 @@ import Vue from '@vitejs/plugin-vue'
 import Vuetify, { transformAssetUrls } from 'vite-plugin-vuetify'
 import ViteFonts from 'unplugin-fonts/vite'
 import VueRouter from 'unplugin-vue-router/vite'
+import { initYandexMetrika } from 'yandex-metrika-vue3'
 
 // Utilities
 import { defineConfig } from 'vite'
@@ -12,6 +13,10 @@ import { fileURLToPath, URL } from 'node:url'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
+    initYandexMetrika({
+      id: 99215475,
+      env: import.meta.env.NODE_ENV
+    }),
     VueRouter(),
     Vue({
       template: { transformAssetUrls }
