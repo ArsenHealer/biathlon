@@ -22,7 +22,7 @@ registerPlugins(app)
 app.use(initYandexMetrika, {
   id: 99215475,
   router: router,
-  env: import.meta.env.MODE,
+  env: "production",
 });
 
 app.mount('#app')
